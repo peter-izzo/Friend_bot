@@ -1,7 +1,6 @@
 import tweepy
 from credentials import *
 from time import sleep
-import urllib
 
 #accessing OAuth and integrating with API
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -33,7 +32,7 @@ def tweet():
 
         sleep(10)
 
-        while sleep != True:
+        while sleep != False:
             for i in read_it:
                 try:
                     print(i)
