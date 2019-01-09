@@ -1,5 +1,13 @@
 # Friend_bot
 
-Reads two differnet documents and tweets lines read off said documents every few seconds.
+Twitter user @friendbot5
 
-Twitter bot that sends current date and time to added users once per day(has not been added yet)
+Twitter bot that: 
+
+Reads two different documents then tweets lines read from the documents, alternating on a timer. 
+
+Adds a specific profiles added users. 
+
+Follows any users that follows it. 
+
+Sends current date and time to one added user once per day.
